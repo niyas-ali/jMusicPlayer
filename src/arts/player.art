@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="albumArtContainer">
+        <img class="albumArt" />
+    </div>
+    <div class="playerContainer">
+        <div class="prevbtn"></div>
+        <div class="playbtn"></div>
+        <div class="nextbtn"></div>
+        <div class="volumeContainer">
+            <div class="volumebtn"></div>
+            <div class="volumeSeekBarContainer">
+                <div class="volumeSeekBar"></div>
+            </div>
+        </div>
+        <div class="loopbtn"></div>
+        <div class="playListCollapse"></div>
+        <div class="seekBarContainer">
+            <span class="playtime">0:00/0:00</span>
+            <div class="playSeekBarContainer">
+                <div class="playSeekBar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="playListContainer">
+        <ul class="trackItems"></ul>
+    </div>
+</div>

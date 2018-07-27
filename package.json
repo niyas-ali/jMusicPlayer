@@ -1,0 +1,29 @@
+{
+  "name": "jmusicplayer",
+  "version": "1.0.0",
+  "description": "A javascript based music player. Written on typescript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "typescript",
+    "player",
+    "music",
+    "player",
+    "web",
+    "player"
+  ],
+  "author": "niyas ali",
+  "license": "MIT",
+  "devDependencies": {
+    "art-template": "^4.12.2",
+    "art-template-loader": "^1.4.3",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {}
+}
