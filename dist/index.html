@@ -5,26 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-   <link href="../src/style/style.css" rel="stylesheet"/>
-   <style>
-   
-   .trackItems{
-    overflow: auto;
-    height: 54px;
-   }
-   </style>
    
 </head>
 <body>
     <div id="player"></div>
-  
     <script src="bundle.js"></script>
     <script>
-        
-        document.oncontextmenu=function(){
-        console.log('loaded')
-         p = new Player({loopPlayList:true,container:'#player'});
-    }
+        var player = new Player({loopPlayList:true,container:'#player'});
     </script>
     
 </body>

@@ -18,6 +18,22 @@ module.exports = {
         options: {
           
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: [
+                require('autoprefixer')({})
+              ]
+            }
+          }
+        ]
       }
     ]
   },

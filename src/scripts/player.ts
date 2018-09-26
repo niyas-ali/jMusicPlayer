@@ -2,7 +2,7 @@ import { Core, IconsTags, RepeatKind, Settings } from "./core";
 import Events, { EventKeywords } from "./events";
 import Song from "./song";
 import Template from "./template";
-
+import "../style/style.css";
 class Player {
   /**
    * holds template object
@@ -54,22 +54,22 @@ class Player {
     this.events = new Events();
     this.init();
 
-    let songs = new Array<Song>();
-    let s = new Song();
-    (s.Url = "song.mp3"),
-      (s.Name = "First song"),
-      (s.Image = "thumb1.jpg"),
-      (s.Duration = "3.45");
-    songs.push(s);
-    s = new Song();
-    (s.Url = "song1.mp3"), (s.Name = "second song");
-    (s.Image = "thumb2.jpg"), (s.Duration = "2.45");
-    songs.push(s);
-    s = new Song();
-    (s.Url = "song2.mp3"), (s.Name = "third song");
-    (s.Image = "thumb3.jpg"), (s.Duration = "5.45");
-    songs.push(s);
-    this.addTracksToPlayList(songs);
+    // let songs = new Array<Song>();
+    // let s = new Song();
+    // (s.Url = "song.mp3"),
+    //   (s.Name = "First song"),
+    //   (s.Image = "thumb1.jpg"),
+    //   (s.Duration = "3.45");
+    // songs.push(s);
+    // s = new Song();
+    // (s.Url = "song1.mp3"), (s.Name = "second song");
+    // (s.Image = "thumb2.jpg"), (s.Duration = "2.45");
+    // songs.push(s);
+    // s = new Song();
+    // (s.Url = "song2.mp3"), (s.Name = "third song");
+    // (s.Image = "thumb3.jpg"), (s.Duration = "5.45");
+    // songs.push(s);
+    // this.addTracksToPlayList(songs);
 
     //checking configurations
     if (options.enableCloseButton) {

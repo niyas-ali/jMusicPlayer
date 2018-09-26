@@ -92,24 +92,24 @@ class Template {
    * method for initialization all player controls
    */
   init() {
-    this.albumArt = this.container.querySelector(".albumArt");
-    this.playbtn = this.container.querySelector(".playbtn");
-    this.nextbtn = this.container.querySelector(".nextbtn");
-    this.prevbtn = this.container.querySelector(".prevbtn");
-    this.volumebtn = this.container.querySelector(".volumebtn");
-    this.loopbtn = this.container.querySelector(".loopbtn");
-    this.playSeekBar = this.container.querySelector(".playSeekBar");
+    this.albumArt = this.container.querySelector(".jMusicPlayer-albumArt");
+    this.playbtn = this.container.querySelector(".jMusicPlayer-playbtn");
+    this.nextbtn = this.container.querySelector(".jMusicPlayer-nextbtn");
+    this.prevbtn = this.container.querySelector(".jMusicPlayer-prevbtn");
+    this.volumebtn = this.container.querySelector(".jMusicPlayer-volumebtn");
+    this.loopbtn = this.container.querySelector(".jMusicPlayer-loopbtn");
+    this.playSeekBar = this.container.querySelector(".jMusicPlayer-playSeekBar");
     this.playSeekBarContainer = this.container.querySelector(
-      ".playSeekBarContainer"
+      ".jMusicPlayer-playSeekBarContainer"
     );
     this.volumeSeekBarContainer = this.container.querySelector(
-      ".volumeSeekBarContainer"
+      ".jMusicPlayer-volumeSeekBarContainer"
     );
-    this.volumeSeekBar = this.container.querySelector(".volumeSeekBar");
-    this.playTime = this.container.querySelector(".playtime");
-    this.playListContainer = this.container.querySelector(".playListContainer");
-    this.trackItems = this.container.querySelector(".trackItems");
-    this.playListCollapse = this.container.querySelector(".playListCollapse");
+    this.volumeSeekBar = this.container.querySelector(".jMusicPlayer-volumeSeekBar");
+    this.playTime = this.container.querySelector(".jMusicPlayer-playtime");
+    this.playListContainer = this.container.querySelector(".jMusicPlayer-playListContainer");
+    this.trackItems = this.container.querySelector(".jMusicPlayer-trackItems");
+    this.playListCollapse = this.container.querySelector(".jMusicPlayer-playListCollapse");
   }
 }
 
